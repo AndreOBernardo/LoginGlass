@@ -1,0 +1,187 @@
+
+
+/* Glass model */
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;300;400;500&family=Poppins:wght@100;400;500;600;900&display=swap');
+
+*{
+   font-family: 'Overpass', sans-serif;
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#head{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    width: 50px;
+}
+
+#img{
+    position: relative;
+    top: -170px;
+    width: 70px;    
+}
+
+body{
+   background-image: url('http://i.imgur.com/QgFVVMR.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height:100vh;
+}
+
+h1{
+   position: relative;
+   top: -160px;
+   color:  #fff;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   text-shadow: 5px 5px 5px 5px rgba(65, 61, 61, 0.5);
+}
+
+h1:hover{
+    text-shadow: 6px 6px 12px #c5c5c5,
+    -6px -6px 12px #ffffff;
+}
+
+.container {
+   position: static;
+   margin: auto;
+   margin-top: 3%;
+   padding-top: 200px;
+   padding-bottom: 30px;  
+   width: 400px;
+   max-width:50%;
+   max-height:50%;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background: #ffffff;
+   display: block;
+   border-radius:20px;
+   box-shadow: 5px 5px 5px 1px rgba(65, 61, 61, 0.76);    
+   background: rgba(255, 255, 255, .9);
+   -webkit-backdrop-filter: blur(10px); 
+   backdrop-filter: blur(10px);
+   transition: all 1s;
+   background: rgba(237, 250, 255, 0.1);
+   backdrop-filter: blur(7px);   
+} 
+
+.container:hover {
+    box-shadow: 6px 6px 12px #c5c5c5,
+                        -6px -6px 12px #ffffff;
+}
+.container:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+                -4px -4px 12px #ffffff;
+}
+
+.entradas{
+    border-radius:7px;
+    margin: auto;
+    position:relative;
+    display: flex;
+    top: -110px; 
+    width: 200px;
+    padding: 5px;
+    max-width:50%;
+    max-height:50%; 
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    text-shadow: #fff 1px 1px 2px;
+    border:none;
+    box-shadow: 5px 5px 5px 1px rgba(65, 61, 61, 0.76);
+    background: rgba(237, 250, 255, 0.1);
+    backdrop-filter: blur(7px);  
+}
+
+.entradas:hover {
+    box-shadow: 6px 6px 12px #c5c5c5,
+                        -6px -6px 12px #ffffff;
+    transition: 1s;
+}
+.entradas:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+                -4px -4px 12px #ffffff;
+}
+
+.entradas:focus {
+    outline: 0;
+}
+
+
+label{
+    color: #fff;
+    -webkit-backdrop-filter: blur(5px); 
+    backdrop-filter: blur(5px);
+    font-size: 12px;
+    position:relative;
+    top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:5%;
+    max-height:5%;
+}
+
+#check{
+    color: #fff;
+    text-shadow: #fff 1px 1px 2px;
+    position:relative;
+    top: -98px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:5%;
+    max-height:5%;
+    background: rgba(237, 250, 255, 0.1);
+    backdrop-filter: blur(7px);
+    cursor: pointer;
+} 
+#check:hover {
+    box-shadow: 6px 6px 12px #c5c5c5,
+                        -6px -6px 12px #ffffff;
+    transition: 1s;
+}
+#check:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+                -4px -4px 12px #ffffff;
+}
+
+#btn {
+    position:relative;
+    top: -70px;
+    text-align: center;
+    width: 80px;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 0.5em;
+    color:#fff;
+    box-shadow: 5px 5px 5px 1px rgba(65, 61, 61, 0.76);
+    max-width:25%;
+    max-height:25%;
+    background: rgba(237, 250, 255, 0.1);
+    backdrop-filter: blur(7px); 
+    transition: 1s;
+}
+   
+#btn:hover {
+    box-shadow: 6px 6px 12px #c5c5c5,
+                        -6px -6px 12px #ffffff;
+    transition: 1s;
+}
+#btn:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+                -4px -4px 12px #ffffff;
+}
+
+#olho {
+    position:absolute;
+    margin-left:75px;
+    margin-top: 308px;
+    top: .20rem;
+    filter:brightness(1000%);
+    transform: scale(85%); 
+}
